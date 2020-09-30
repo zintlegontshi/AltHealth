@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 27, 2020 at 07:18 PM
+-- Generation Time: Sep 30, 2020 at 01:54 PM
 -- Server version: 10.1.38-MariaDB
 -- PHP Version: 7.3.3
 
@@ -2101,7 +2101,14 @@ INSERT INTO `tblinv_info` (`Inv_Num`, `Client_id`, `Inv_Date`, `Inv_Paid`, `Inv_
 ('INV0996', '9701100285087', '2017-09-04', 'Y', '2017-09-06', ''),
 ('INV0997', '2707140905083', '2017-09-05', 'Y', '2017-09-09', ''),
 ('INV0998', '4509220879086', '2017-09-06', 'Y', '2017-09-12', ''),
-('INV0999', '3605090332085', '2017-09-11', 'Y', '2017-09-17', '');
+('INV0999', '3605090332085', '2017-09-11', 'Y', '2017-09-17', ''),
+('INV1000', '9611120247088', '2020-06-28', 'N', '2020-06-28', ''),
+('INV1001', '9701100285087', '2020-06-30', 'N', '2020-06-30', ''),
+('INV1002', '9701100285087', '2020-07-02', 'N', '2020-07-02', ''),
+('INV1003', '9902110250084', '2020-07-02', 'N', '2020-07-02', ''),
+('INV1004', '9910060946082', '2020-08-31', 'N', '2020-08-31', ''),
+('INV1005', '9910120124085', '2020-08-31', 'N', '2020-08-31', ''),
+('INV1006', '1307090536085', '2020-09-29', 'N', '2020-09-29', '');
 
 -- --------------------------------------------------------
 
@@ -4464,6 +4471,7 @@ INSERT INTO `tblinv_items` (`Inv_Num`, `Supplement_id`, `Item_Price`, `Item_Quan
 ('INV0665', 'Supplement-74', '227.00', 4),
 ('INV0759', 'Supplement-74', '227.00', 2),
 ('INV0965', 'Supplement-74', '250.00', 5),
+('INV1003', 'Supplement-74', '266.00', 1),
 ('INV01016', 'Supplement-75', '236.00', 5),
 ('INV01107', 'Supplement-75', '239.00', 2),
 ('INV01279', 'Supplement-75', '239.00', 2),
@@ -4497,9 +4505,9 @@ INSERT INTO `tblinv_items` (`Inv_Num`, `Supplement_id`, `Item_Price`, `Item_Quan
 ('INV01419', 'Supplement-78', '268.00', 4),
 ('INV01420', 'Supplement-78', '268.00', 3),
 ('INV01586', 'Supplement-78', '294.00', 5),
-('INV0474', 'Supplement-78', '224.00', 1),
-('INV0568', 'Supplement-78', '224.00', 2);
+('INV0474', 'Supplement-78', '224.00', 1);
 INSERT INTO `tblinv_items` (`Inv_Num`, `Supplement_id`, `Item_Price`, `Item_Quantity`) VALUES
+('INV0568', 'Supplement-78', '224.00', 2),
 ('INV01018', 'Supplement-79', '216.00', 1),
 ('INV01023', 'Supplement-79', '216.00', 5),
 ('INV01312', 'Supplement-79', '217.00', 1),
@@ -4583,6 +4591,7 @@ INSERT INTO `tblinv_items` (`Inv_Num`, `Supplement_id`, `Item_Price`, `Item_Quan
 ('INV0701', 'Supplement-86', '159.00', 2),
 ('INV0834', 'Supplement-86', '159.00', 5),
 ('INV0849', 'Supplement-86', '159.00', 5),
+('INV1001', 'Supplement-86', '201.00', 1),
 ('INV01587', 'Supplement-87', '186.00', 5),
 ('INV0432', 'Supplement-87', '130.00', 1),
 ('INV0455', 'Supplement-87', '130.00', 3),
@@ -4604,6 +4613,7 @@ INSERT INTO `tblinv_items` (`Inv_Num`, `Supplement_id`, `Item_Price`, `Item_Quan
 ('INV0823', 'Supplement-88', '303.00', 4),
 ('INV0928', 'Supplement-88', '311.00', 4),
 ('INV0931', 'Supplement-88', '311.00', 3),
+('INV1001', 'Supplement-88', '348.00', 1),
 ('INV0044', 'Supplement-89', '214.00', 1),
 ('INV0072', 'Supplement-89', '214.00', 5),
 ('INV01067', 'Supplement-89', '351.00', 4),
@@ -4676,6 +4686,7 @@ INSERT INTO `tblinv_items` (`Inv_Num`, `Supplement_id`, `Item_Price`, `Item_Quan
 ('INV0840', 'Supplement-93', '257.00', 1),
 ('INV0861', 'Supplement-93', '263.00', 5),
 ('INV0909', 'Supplement-93', '263.00', 5),
+('INV1002', 'Supplement-93', '261.00', 1),
 ('INV0046', 'Supplement-94', '175.00', 3),
 ('INV0053', 'Supplement-94', '175.00', 1),
 ('INV0070', 'Supplement-94', '175.00', 3),
@@ -4692,6 +4703,7 @@ INSERT INTO `tblinv_items` (`Inv_Num`, `Supplement_id`, `Item_Price`, `Item_Quan
 ('INV0187', 'Supplement-95', '180.00', 3),
 ('INV0383', 'Supplement-95', '206.00', 4),
 ('INV0901', 'Supplement-95', '232.00', 4),
+('INV1001', 'Supplement-95', '206.00', 1),
 ('INV01097', 'Supplement-96', '205.00', 4),
 ('INV01239', 'Supplement-96', '205.00', 1),
 ('INV01316', 'Supplement-96', '205.00', 3),
@@ -4721,6 +4733,7 @@ INSERT INTO `tblinv_items` (`Inv_Num`, `Supplement_id`, `Item_Price`, `Item_Quan
 ('INV0835', 'Supplement-98', '185.00', 4),
 ('INV0883', 'Supplement-98', '214.00', 5),
 ('INV0957', 'Supplement-98', '214.00', 5),
+('INV1003', 'Supplement-98', '217.00', 2),
 ('INV01180', 'Supplement-99', '222.00', 3),
 ('INV01226', 'Supplement-99', '222.00', 3),
 ('INV01516', 'Supplement-99', '235.00', 5),
@@ -4992,7 +5005,7 @@ INSERT INTO `tblsupplements` (`Supplement_id`, `Supplier_Id`, `Supplement_Descri
 ('Supplement-71', 'SUPPLIER A', 'Men Adult 60\'s', '310.00', '353.00', 5, 3, ''),
 ('Supplement-72', 'SUPPLIER A', 'Men Adult 50+ 60\'s', '224.00', '255.00', 1, 17, ''),
 ('Supplement-73', 'SUPPLIER C', 'Women Adult 70+ 60\'s', '235.00', '268.00', 7, 36, ''),
-('Supplement-74', 'SUPPLIER A', 'Vitamin K2 30\'s', '234.00', '266.00', 1, 15, ''),
+('Supplement-74', 'SUPPLIER A', 'Vitamin K2 30\'s', '234.00', '266.00', 1, 14, ''),
 ('Supplement-75', 'SUPPLIER B', 'Burnout Support 60\'s', '197.00', '224.00', 6, 22, ''),
 ('Supplement-76', 'SUPPLIER B', 'Natural Antibiotics 120\'s', '275.00', '313.00', 2, 8, ''),
 ('Supplement-77', 'SUPPLIER A', 'Garcinia Tablets 60\'s', '220.00', '250.00', 1, 49, ''),
@@ -5005,20 +5018,21 @@ INSERT INTO `tblsupplements` (`Supplement_id`, `Supplier_Id`, `Supplement_Descri
 ('Supplement-83', 'SUPPLIER A', 'Calmag 120\'s', '259.00', '295.00', 1, 40, ''),
 ('Supplement-84', 'SUPPLIER B', 'Women Adult 60\'s', '142.00', '161.00', 6, 6, ''),
 ('Supplement-85', 'SUPPLIER A', 'Chromium 90\'s', '223.00', '254.00', 6, 31, ''),
-('Supplement-86', 'SUPPLIER A', 'Iron Plus 30\'s', '177.00', '201.00', 1, 45, ''),
+('Supplement-86', 'SUPPLIER A', 'Iron Plus 30\'s', '177.00', '201.00', 1, 44, ''),
 ('Supplement-87', 'SUPPLIER A', 'Vitamin D3 60\'s', '137.00', '156.00', 5, 48, ''),
-('Supplement-88', 'SUPPLIER G', 'Men Teens 120\'s', '306.00', '348.00', 2, 17, ''),
+('Supplement-88', 'SUPPLIER G', 'Men Teens 120\'s', '306.00', '348.00', 2, 16, ''),
+('Supplement-880', 'SUPPLIER D', 'Energy Booster', '175.00', '220.00', 5, 20, ''),
 ('Supplement-89', 'SUPPLIER C', 'Men Adult 60\'s', '274.00', '312.00', 2, 19, ''),
 ('Supplement-9', 'SUPPLIER A', 'Krill Oil 30\'s', '326.00', '371.00', 8, 33, ''),
 ('Supplement-90', 'SUPPLIER B', 'Women Adult 50+ 60\'s', '159.00', '181.00', 4, 19, ''),
 ('Supplement-91', 'SUPPLIER A', 'Curcumin 30\'s', '230.00', '262.00', 6, 3, ''),
 ('Supplement-92', 'SUPPLIER B', 'Women Adult 70+ 60\'s', '232.00', '264.00', 4, 20, ''),
-('Supplement-93', 'SUPPLIER C', 'Men Adult 50+ 60\'s', '229.00', '261.00', 5, 36, ''),
+('Supplement-93', 'SUPPLIER C', 'Men Adult 50+ 60\'s', '229.00', '261.00', 5, 35, ''),
 ('Supplement-94', 'SUPPLIER A', 'Milk Thistle Extract 90\'s', '221.00', '251.00', 6, 36, ''),
-('Supplement-95', 'SUPPLIER A', 'Natural memory support 60\'s', '181.00', '206.00', 8, 13, ''),
+('Supplement-95', 'SUPPLIER A', 'Natural memory support 60\'s', '181.00', '206.00', 8, 12, ''),
 ('Supplement-96', 'SUPPLIER G', 'Calmag 120 x 600mg', '176.00', '200.00', 10, 6, ''),
 ('Supplement-97', 'SUPPLIER G', 'Calcium Glycinate 60\'s', '201.00', '229.00', 4, 30, ''),
-('Supplement-98', 'SUPPLIER B', 'Men Adult 60\'s', '191.00', '217.00', 7, 49, ''),
+('Supplement-98', 'SUPPLIER B', 'Men Adult 60\'s', '191.00', '217.00', 7, 47, ''),
 ('Supplement-99', 'SUPPLIER G', 'Chromium Polynicotinate 90 x 100mg', '185.00', '210.00', 7, 22, '');
 
 -- --------------------------------------------------------
