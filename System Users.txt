@@ -1,0 +1,28 @@
+Application users
+
+u: ga
+p: gaPassword
+
+u: hcp
+p: hcpPassword
+
+
+website:
+
+https://41291336althealth.000webhostapp.com/
+
+hosted DB
+
+p: ndev2q>Kn<HQ6|zK
+u: id14873295_root
+dbname: id14873295_althealth
+host: https://databases-auth.000webhost.com/index.php
+
+
+local DB
+
+u: backup myadmin
+p: ndev2q>Kn<HQ6
+
+u: root:
+p: Hlumisa002
